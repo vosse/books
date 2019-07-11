@@ -36,4 +36,10 @@ addForm.addEventListener('submit', (e) => {
   list.appendChild(li)
 
 
+
+})
+
+const emptyInput = document.forms['add-book']
+emptyInput.addEventListener('submit', (e) => {
+  const emptyValue = addForm.querySelector('input[type=text]').value = '';
 })

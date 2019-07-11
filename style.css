@@ -8,15 +8,17 @@ body {
 }
 
 #content {
-  display: grid;
+/*  display: grid;
   max-width: 960px;
   margin: 0 auto;
   grid-column: repeat(12, 1fr);
-  grid-auto-rows: minmax(100, auto);
+  grid-auto-rows: minmax(100, auto); */
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #header {
-  grid-column: 1/13;
+   /*grid-column: 1/13; */
 
   margin: 50px;
   font-size: 50px;
@@ -25,10 +27,13 @@ body {
 }
 
 #main {
-  font-size: 20px;
-  grid-column: 4/10;
-
-  margin: auto;
+  /*font-size: 20px;
+  grid-column: 4/10; */
+  border: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  margin: 10px auto;
 }
 
 
@@ -43,11 +48,11 @@ ul {
   border-width: 3px;
   border-radius: 5px;
   color: #fff;
-  margin-top: 5px;
+/*  margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
-  margin-left: 50px;
-  position: absolute;
+  margin-left: 50px; */
+  float: right;
 
 }
 
@@ -61,6 +66,8 @@ input[type=text] {
   box-sizing: border-box;
   border-width: 5px;
   border: color: #d7dadc;
+  width: 300px;
+  margin-top: 50px;
 
 }
 
@@ -73,5 +80,6 @@ input[type=text] {
   border-width: 5px;
   border-radius: 5px;
   color: #black;
+  margin-top: 50px;
   padding: 10px;
 }
