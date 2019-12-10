@@ -1,3 +1,3 @@
 # books
 
-Javascript DOM example :muscle: :muscle: 
+Live demo: https://vosse.github.io/books/
